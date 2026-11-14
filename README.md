@@ -74,17 +74,17 @@ The final project listing confirmed that the original Lab 4 project remained. Th
 ## Screenshots
 The evidence index is in [docs/evidence-index.md](docs/evidence-index.md). Screenshots belong in `docs/screenshots/` and should be named:
 
-1. `01_Redmine_Application.png`
-2. `02_RDS_Database_Status.png`
-3. `03_RDS_PostgreSQL_Configuration.png`
-4. `04_RDS_Security_Group.png`
-5. `05_EC2_Instance_Details.png`
-6. `06_CRUD_Create.png`
-7. `07_CRUD_Read.png`
-8. `08_CRUD_Update.png`
-9. `09_CRUD_Delete.png`
-10. `10_Final_Project_Verification.png`
-11. `11_RDS_Database_Records.png`
+1. `01_Redmine_Application.jpg`
+2. `02_RDS_Database_Status.jpg`
+3. `03_RDS_PostgreSQL_Configuration.jpg`
+4. `04_RDS_Security_Group.jpg`
+5. `05_EC2_Instance_Details.jpg`
+6. `06_CRUD_Create.jpg`
+7. `07_CRUD_Read.jpg`
+8. `08_CRUD_Update.jpg`
+9. `09_CRUD_Delete.jpg`
+10. `10_Final_Project_Verification.jpg`
+11. `11_RDS_Database_Records.jpg`
 
 Only add screenshots that show successful results. Redact passwords, API tokens, and other sensitive values before publishing.
 
