@@ -1,0 +1,19 @@
+services:
+  redmine:
+    image: redmine@sha256:eff65d7d651d8b07784cbaf37aec5aa74c1ccea3b834e8157e7043c003bdbf70
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      REDMINE_DB_POSTGRES: vedant-lab5-postgres.c3a6k8gg8ony.ap-south-1.rds.amazonaws.com
+      REDMINE_DB_PORT: "5432"
+      REDMINE_DB_DATABASE: redmine
+      REDMINE_DB_USERNAME: redmineadmin
+      PGSSLMODE: require
+      REDMINE_NO_DB_MIGRATE: "1"
+    volumes:
+      - redmine_rds_files:/usr/src/redmine/files
+    ports:
+      - "8080:3000"
+
+volumes:
+  redmine_rds_files:
