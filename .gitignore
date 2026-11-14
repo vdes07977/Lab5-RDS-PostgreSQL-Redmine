@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+api_token
+*.dump
+*.sql
+*.pem
+*.key
+.DS_Store
+Thumbs.db
